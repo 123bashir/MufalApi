@@ -62,6 +62,4 @@ app.use("/api/users", userRoute);
 app.use("/api/test", testRoute);
 
 
-app.listen(8800, () => {
-  console.log("Server is running atport 8800!");
-});
+export default app;
