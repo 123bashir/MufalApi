@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.js", // Your entry file
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/route1",
+      "dest": "/api/routes/user.route.js" // Adjust to the actual file path
+    },
+    {
+      "src": "/api/route2",
+      "dest": "/api/routes/auth.route.js" // Adjust to the actual file path
+    },
+    {
+      "src": "/api/route3",
+      "dest": "/api/routes/test.route.js" // Adjust to the actual file path
+    }
+  ],
+  "env": {
+    "DB_HOST": "mysql-386fdf5a-mufal.g.aivencloud.com",
+    "DB_USER": "avnadmin",
+    "DB_PASSWORD": "AVNS_88XeHxm1slSFJ4Ymo1t",
+    "DB_NAME": "mufal"
+  }
+}
