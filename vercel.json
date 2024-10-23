@@ -8,15 +8,15 @@
   ],
   "routes": [
     {
-      "src": "/api/route1",
+      "src": "/api/routes/user.route.js",
       "dest": "/api/routes/user.route.js" // Adjust to the actual file path
     },
     {
-      "src": "/api/route2",
+      "src": "/api/routes/auth.route.js"
       "dest": "/api/routes/auth.route.js" // Adjust to the actual file path
     },
     {
-      "src": "/api/route3",
+      "src":  "/api/routes/test.route.js"
       "dest": "/api/routes/test.route.js" // Adjust to the actual file path
     }
   ],
